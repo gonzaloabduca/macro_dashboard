@@ -232,7 +232,7 @@ foodnenergy = {
 }
 
 
-ism = pd.read_excel("C:/Users/User/Desktop/AlgoCap/Macro Indicators/ISM Data.xlsx", index_col='Date')
+ism = pd.read_excel("ISM Data.csv", index_col='Date')
 
 ism_roc = ism - ism.shift(3)
 
